@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatpter 5_Console", "Chatpter 5_Console\Chatpter 5_Console.csproj", "{6CCE0B72-97A2-4B56-BC56-99032B0A8177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chatpter 6_Console", "Chatpter 5_Console\Chatpter 6_Console.csproj", "{6CCE0B72-97A2-4B56-BC56-99032B0A8177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funtionalities", "Funtionalities\Funtionalities.csproj", "{C2195789-527F-4DD6-AD9F-7EE86C0D614D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funtionalities", "Funtionalities\Funtionalities.csproj", "{C2195789-527F-4DD6-AD9F-7EE86C0D614D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
