@@ -1,4 +1,5 @@
 ﻿using Funtionalities;
+using Funtionalities.Interfaces;
 using static System.Console;
 
 Person bob = new()
@@ -64,5 +65,11 @@ p.Lose(); // calls implicit implementation of losing a key
 ((IGamePlayer)p).Lose(); // calls explicit implementation of losing a game
 IGamePlayer player = p as IGamePlayer;
 player.Lose(); // calls explicit implementation of losing a game
+
+IPlayable dvdPlayer = new DvdPlayer();
+
+dvdPlayer.Play();
+dvdPlayer.Pause();
+dvdPlayer.Stop();
 
 ReadLine();
