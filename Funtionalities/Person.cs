@@ -1,7 +1,18 @@
 ﻿using static System.Console;
 
 namespace Funtionalities;
-public class Person
+
+public interface IGamePlayer
+{
+    void Lose();
+}
+
+public interface IKeyHolder
+{
+    void Lose();
+}
+
+public class Person : IGamePlayer, IKeyHolder
 {
     // fields
     public string? Name; // ? allows null
@@ -42,4 +53,15 @@ public class Person
         return input.Length; // it doesn't matter what the method does
     }
 
+    // implicit implementation
+    public void Lose()
+    {
+        Console.WriteLine("Key Lose Method Called Implicitly");
+    }
+
+    // explicit implementation
+    void IGamePlayer.Lose()
+    {
+        Console.WriteLine("Game Lose Method Called Explicitly");
+    }
 }
