@@ -72,4 +72,14 @@ dvdPlayer.Play();
 dvdPlayer.Pause();
 dvdPlayer.Stop();
 
+int number1 = 49; //value type
+long number2 = 12;//value type
+System.Drawing.Point location = new(x: 4, y: 5);//value type
+Person kevin = new()
+{
+    Name = "Kevin",
+    DateOfBirth = new(year: 1988, month: 9, day: 23)
+};//reference type
+Person sally;//reference type because its null no memory for it has been allocated on the heap
+
 ReadLine();
